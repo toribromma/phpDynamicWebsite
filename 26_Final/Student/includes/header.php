@@ -1,3 +1,6 @@
+<?php
+    include("includes/arrays.php");
+?>
 <html>
 <head>
     <title></title>
