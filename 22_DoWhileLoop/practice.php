@@ -29,8 +29,12 @@
 			<div class="sandbox">
 				
 				<?php
+				$i = 1;
 				 
-				    // your code here
+				    do {
+						echo "Number: $i <br>";
+						$i++;
+					} while ($i <= 10);
 				 
 				?>
 				

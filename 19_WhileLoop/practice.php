@@ -1,10 +1,11 @@
 <?php
 	
 	// Constants
-
+	define("TITLE", "While Loop");
 	
 	// Custom Variables
-
+	$myName = "Tori Bromma";
+	$lessonNum = 19;
 
 ?>
 
@@ -29,7 +30,17 @@
 				
 				<?php
 				 
-				    // your code here
+				    // set a variable with your starting number 
+					$startingNum = 10;
+
+					while($startingNum <= 20) {
+						// echo the value of the variable on the screen
+
+						echo $startingNum . "<br>";
+
+						// increment the value by 1
+						$startingNum++;
+					}
 				 
 				?>
 				

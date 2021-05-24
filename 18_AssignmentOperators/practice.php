@@ -1,17 +1,18 @@
 <?php
 	
 	// Constants
-
+	define("TITLE", "Assignment Operators");
 	
 	// Custom Variables
-
+	$myName = "Tori Bromma";
+	$lessonNum = 18;
 
 ?>
 
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PHP <!-- TITLE --></title>
+		<title>PHP <?php echo TITLE;?></title>
 		<link href="../assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
@@ -20,7 +21,7 @@
 				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <!-- LESSON NUMBER -->: <small><!-- TITLE --></small></h1>
+			<h1>Tutorial <?php echo $lessonNum;?>: <small><?php echo TITLE;?></small></h1>
 			<hr>
 			
 			<h2>Your Example</h2>
@@ -29,32 +30,56 @@
 				
 				<h3>Addition Assignment Operator <code>+=</code></h3>
 				<?php
-					// your code here
+					$a = 30;
+					$b = 50;
+
+					$a += $b;
+					echo $a;
 				?>
 				
 				<h3>Subtraction Assignment Operator <code>-=</code></h3>
 				<?php
-					// your code here
+					$a = 30;
+					$b = 50;
+
+					$a -= $b;
+					echo $a;
 				?>
 				
 				<h3>Multiplication Assignment Operator <code>*=</code></h3>
 				<?php
-					// your code here
+									$a = 30;
+									$b = 50;
+				
+									$a *= $b;
+									echo $a;
 				?>
 				
 				<h3>Division Assignment Operator <code>/=</code></h3>
 				<?php
-					// your code here
+									$a = 30;
+									$b = 50;
+				
+									$a /= $b;
+									echo $a;
 				?>
 				
 				<h3>Modulus Assignment Operator <code>%=</code></h3>
 				<?php
-					// your code here
+									$a = 30;
+									$b = 50;
+				
+									$a %= $b;
+									echo $a;
 				?>
 				
 				<h3>Concatenation Assignment Operator <code>.=</code></h3>
 				<?php
-					// your code here
+									$a = 30;
+									$b = 50;
+				
+									$a .= $b;
+									echo $a;
 				?>
 				
 			</div><!-- end sandbox -->

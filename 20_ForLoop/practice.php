@@ -30,7 +30,11 @@
 				
 				<?php
 				 
-				    // your code here
+				    				 
+				   for ($a = 0; $a <= 20; $a++) {
+					echo "Number: $a <br>";
+				   }
+				 
 				 
 				?>
 				

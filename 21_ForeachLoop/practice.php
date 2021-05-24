@@ -29,9 +29,10 @@
 			<div class="sandbox">
 				
 				<?php
-				 
-				    // your code here
-				 
+					$moustaches = array("Handlebar", "Salvador Dali", "Fu Manchu");
+					foreach ($moustaches as $moustache) {
+						echo "I love the $moustache <br>";
+					}
 				?>
 				
 			</div><!-- end sandbox -->
