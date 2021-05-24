@@ -30,13 +30,13 @@
 
     <hr>
     <div id="dish">
-        <h1><?php echo $dish["title"];?> <span class="price"><sup>$</sup><?php echo $dish[price];?></span></h1>
+        <h1><?php echo $dish["title"];?> <span class="price"><sup>$</sup><?php echo $dish["price"];?></span></h1>
         <p><?php echo $dish["blurb"];?></p>
 
         <br>
 
-        <p><strong>Suggested Beverage: <?php echo $dish[drink]; ?></strong></p>
-        <p><em>Suggested tip: <sup>$</sup><?php suggestedTip($dish[price], 0.20); ?></em></p> 
+        <p><strong>Suggested Beverage: <?php echo $dish["drink"]; ?></strong></p>
+        <p><em>Suggested tip: <sup>$</sup><?php suggestedTip($dish["price"], 0.20); ?></em></p> 
 
     </div><!--dish -->
 
