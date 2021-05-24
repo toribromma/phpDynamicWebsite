@@ -5,7 +5,7 @@
 <html>
 <head>
     <title><?php echo TITLE;?></title>
-    <link href="/assets//styles.css" rel="stylesheet">
+    <link href="../assets/styles.css" rel="stylesheet">
 <body id="final-example">
     <div class="wrapper">
         <div id="banner">
