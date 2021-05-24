@@ -73,7 +73,7 @@
         <!-- Show success message after email has sent -->
                 <h5>Thanks for contacting Franklin's</h5>
                 <p>Please allow for 24 hours for a response</p>
-                <p><a href="/" class="button block">&laquo; Go to Home Page</a></p>
+                <p><a href="index.php" class="button block">&laquo; Go to Home Page</a></p>
 
         <?php } else { ?>
 
