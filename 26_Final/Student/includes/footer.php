@@ -17,16 +17,18 @@
                 <em>Tues - Thursday</em><br>
                 1:00pm - 9:00pm<br><br>
 
-                <em>Friday</em><br>
+                <em>Friday - Saturday</em><br>
                 4:00pm - 11:00pm<br><br>
                 
                 <em>Sun - Monday</em><br>
                 Closed<br><br>
 
+                <?php include('includes/store-hours.php')?>
+
             </div><!--column -->
 
             </div><!--footer -->
-                <small>&copy;2021 Tori Bromma</small>
+                <small>&copy;<?php echo date("Y");?> <?php echo $companyName?></small>
 
         </div><!--content -->
     </div><!--wrapper -->
